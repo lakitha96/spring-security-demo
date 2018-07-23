@@ -22,7 +22,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser("admin").password("{noop}admin").authorities("ROLE_ADMIN").and();
     }
 
-    //Authorization
+    //Authorization---
 
 
     @Override
